@@ -67,9 +67,7 @@ ulist.innerHTML=ulist.innerHTML+appendli
         deleteuser(uid)
         }
         
-        function deleteuser(uid){
-        
-            
+        function deleteuser(uid){    
             localStorage.removeItem(uid)
             removeUserFromView(uid)
         }
