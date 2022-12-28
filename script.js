@@ -5,6 +5,7 @@ let explist=document.getElementById('expenselist')
 
 
 addexpenseform.addEventListener('submit',addexpense)
+addexpenseform.addEventListener('submit',edituser)
 
 
 function addexpense(event){
@@ -65,7 +66,7 @@ ulist.innerHTML=ulist.innerHTML+appendli
         
 
         deleteuser(uid)
-        }
+        } 
         
         function deleteuser(uid){    
             localStorage.removeItem(uid)
