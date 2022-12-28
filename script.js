@@ -5,7 +5,7 @@ let explist=document.getElementById('expenselist')
 
 
 addexpenseform.addEventListener('submit',addexpense)
-addexpenseform.addEventListener('submit',edituser)
+// addexpenseform.addEventListener('submit',edituser)
 
 
 function addexpense(event){
